@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02.08 - Servindo tags para Formulários Propriedades</title>
+</head>
+
+<body>
+
+    <main>
+
+        <form>
+            <fieldset>
+                <legend>Meu Formulário</legend>
+                <p>
+                    Insira o seu nome: <input type="text" required placeholder="Digite seu nome completo" readonly>
+                </p>
+
+                <p>
+                    Insira o seu CPF: <input type="text" required placeholder="Digite seu CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                </p>
+
+                <p>
+                    Insira o seu email: <input type="email" required="" disable="">
+                </p>
+
+                <p>
+                    Insira o sua senha: <input type="password" required="required" placeholder="Digite uma senha segura">
+                </p>
+                
+                <p>
+                    Insira o sexo: <br> 
+                    <input type="radio" name="radio">Masculino<br>
+                    <input type="radio" name="radio">Feminino
+                </p>
+
+                <p>
+                    Informe sua Tecnologia preferida: <br>
+                    <input type="checkbox">HTML5 <br>
+                    <input type="checkbox">CSS3 <br>
+                    <input type="checkbox">PHP <br>
+                    <input type="checkbox">jQuery
+                </p>
+
+                <p>
+                    Selecione um arquivo: <input type="file">
+                </p>
+
+                <p>
+                    Informe uma URL: <input type="url">
+                </p>
+                <p>
+                    Selecione um curso: <br>
+                    <select>
+                        <optgroup label="Curso de Desenvolvimento">
+                            <option>HTML5 e CSS3 Essentials</option>
+                            <option>Laravel Developer</option>
+                            <option>Git Workflow</option>
+                        </optgroup>
+                        <optgroup label="Curso de Programação">
+                            <option>jQuery Essentials</option>
+                        </optgroup>
+                    </select>
+                </p>
+                    Range: <input type="range">
+                <p>
+
+                </p>
+                    Color Picker: <input type="color">
+                <p>
+
+                </p>
+                    Date: <input type="date">
+                <p>
+
+                </p>
+                    Time: <input type="time">
+                <p>
+
+                </p>
+                    Date Time: <input type="datetime-local">
+                <p>
+
+                </p>
+                    Month: <input type="month">
+                <p>
+
+                </p>
+                    Week: <input type="week">
+                <p>
+
+                </p>
+
+                <p>
+                    <button type="submit">Validar!</button>
+                </p>
+            </fieldset>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
